@@ -1,6 +1,6 @@
 {
-  "name": "auth-middleware",
-  "version": "1.0.0",
+  "name": "auth-middleware-js",
+  "version": "1.0.1",
   "description": "This package can manage cookies and jwt create and verify",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/safayet404/auth-middleware-package/issues"
   },
-  "homepage": "https://github.com/safayet404/auth-middleware-package#readme"
+  "homepage": "https://github.com/safayet404/auth-middleware-package#readme",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
 }
